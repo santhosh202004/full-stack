@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title> day2</title>
+    <style>
+        flux
+        {
+            display:flex;
+            justify-content:space-between;
+            background-color: aqua;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .containers{
+            display:-moz-grid-line;
+            grid-template-columns:repeat(4,1fr);
+            gap:30px;
+            background-color: red;
+    
+                }
+    
+         .item{
+            background-color: azure;
+            border:20px;
+            
+            
+         }
+         @media( max-width:450px){
+            .containers{
+                background-color: brown;
+            }
+         }
+         
+        
+       </style>
+    
+</head>
+<body>
+    
+    <div class="containers">
+       
+        <div class="item"><h2>hello2</h2></div>
+        <div class="item"><h2>hello3</h2></div>
+    <div class="item"> hello4</div>
+    </div>
+
+    
+</body>
+</html>
+        
